@@ -8,8 +8,26 @@
     <body>
         <form>
             <input type="text" placeholder="Name" name="name">
+            <input type="password" placeholder="Password" name="password">
             <button>Submit</button>
+            <div>
+                color
+                <input type="radio" name="color" value="red">red
+                <input type="radio" name="color" value="blue">blue
+                <input type="radio" name="color" value="green">green
+            </div>
+            <div>
+                COUNTRY
+                <input list="countries" name="counrty" placeholder="Country">
+                <datalist id="countries">
+                    <option value="India">
+                    <option value="Afghan">
+                    </option>
+                </datalist>
+                
+            </div>
         </form>
         <p>This is test case</p>
+
     </body>
 </html>
